@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app-header {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  background-color: #131A28;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-text {
+  color: white;
+  font-size: 42px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.square {
+  min-width: 80px;
+  min-height: 80px;
+  font-size: 32px;
+  font-weight: bolder;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.b-bottom-right {
+  border-right: 10px solid #1CDBF5;
+  border-bottom: 10px solid #1CDBF5;
+}
+
+.b-bottom {
+  border-bottom: 10px solid #1CDBF5;
+}
+
+.b-right {
+  border-right: 10px solid #1CDBF5;
+}
+
+.clear-button {
+  width: max-content;
+  margin: 30px auto 7.5px auto;
+  size: 0cm;
+  font-size: large;
+  cursor: pointer;
+}
+
+
+.fc-aqua {
+  color: #1CDBF5;
+}
+
+.fc-white {
+  color: white;
+}
+
+
